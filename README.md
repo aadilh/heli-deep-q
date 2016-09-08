@@ -47,4 +47,44 @@ Rewards: function of the 12 dimensional observation
 
 The simulator is set up to run for 6000 timesteps, and each simulation step is 0.1 seconds, thus giving runs of 10 minutes (although the simulator runs faster than real-time). If the simulator enters a terminal state before 6000 timesteps, a large negative reward is given, corresponding to getting the most negative reward achievable for the remaining time.
 
-Note: the competition software will provide your agent with a task specification string that describes the basic inputs and outputs of the particular problem instance your agent is facing. For the competition, the ranges provided in task specification may not be tight; they provide a rough approximation of the actual observation and action ranges. 
+Note: the competition software will provide your agent with a task specification string that describes the basic inputs and outputs of the particular problem instance your agent is facing. For the competition, the ranges provided in task specification may not be tight; they provide a rough approximation of the actual observation and action ranges.
+
+## Weak Baseline Agent
+
+### Simulation
+
+<img src="./simulations/wba0.gif" width="800" height="500" />
+
+### Plots
+
+#### Velocities
+
+<img src="./plots/image001.png" width="800" height="500" />
+
+<img src="./plots/image002.png" width="800" height="500" />
+
+<img src="./plots/image003.png" width="800" height="500" />
+
+#### Helicopter Position
+
+<img src="./plots/image004.png" width="800" height="500" />
+
+<img src="./plots/image005.png" width="800" height="500" />
+
+<img src="./plots/image006.png" width="800" height="500" />
+
+#### Angular Rate
+
+<img src="./plots/image007.png" width="800" height="500" />
+
+<img src="./plots/image008.png" width="800" height="500" />
+
+<img src="./plots/image009.png" width="800" height="500" />
+
+#### Quaternions
+
+<img src="./plots/image010.png" width="800" height="500" />
+
+<img src="./plots/image011.png" width="800" height="500" />
+
+<img src="./plots/image012.png" width="800" height="500" />
