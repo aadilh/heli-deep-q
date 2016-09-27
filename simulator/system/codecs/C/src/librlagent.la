@@ -14,7 +14,7 @@ library_names='librlagent-1:0:0.so.1.0.0 librlagent-1:0:0.so.1 librlagent.so'
 old_library='librlagent.a'
 
 # Libraries that this one depends upon.
-dependency_libs=' -L/home/aadilh/Desktop/UGP/Simulator/helicopter/system/build/lib /home/aadilh/Desktop/UGP/Simulator/helicopter/system/build/lib/librlgluenetdev.la /home/aadilh/Desktop/UGP/Simulator/helicopter/system/build/lib/librlutils.la'
+dependency_libs=' -L/media/cerebro/code/ugp/heli-deep-q/simulator/system/build/lib /media/cerebro/code/ugp/heli-deep-q/simulator/system/build/lib/librlgluenetdev.la /media/cerebro/code/ugp/heli-deep-q/simulator/system/build/lib/librlutils.la'
 
 # Version information for librlagent.
 current=1
@@ -32,4 +32,4 @@ dlopen=''
 dlpreopen=''
 
 # Directory that this library needs to be installed in:
-libdir='/home/aadilh/Desktop/UGP/Simulator/helicopter/system/build/lib'
+libdir='/media/cerebro/code/ugp/heli-deep-q/simulator/system/build/lib'

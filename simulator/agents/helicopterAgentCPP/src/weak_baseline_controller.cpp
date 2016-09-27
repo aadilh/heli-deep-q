@@ -130,7 +130,7 @@ const char * agent_message (const char * message) {
  */
 void agent_policy (const observation_t * o, action_t & a) {
 
-  print_observation(o);
+  //print_observation(o);
     const double weights[12] = {0.0196, 0.7475, 0.0367, 0.0185,
         0.7904, 0.0322, 0.1969, 0.0513, 0.1348, 0.02, 0, 0.23};
 
@@ -176,6 +176,4 @@ void agent_policy (const observation_t * o, action_t & a) {
     a.doubleArray[1] = elevator;
     a.doubleArray[2] = rudder;
     a.doubleArray[3] = coll;
-
-    cout<<a;
 }
